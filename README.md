@@ -1,2 +1,17 @@
 # DistributedComputing
 EDUCATION:  A distributed system is a model in which components located on networked computers communicate and coordinate their actions by passing messages. The components interact with each other in order to achieve a common goal.
+
+
+# Course Content
+
+This course will cover selected topics for Distributed Systems and Applications.
+
+- [Remote Method Invocation](https://github.com/michaelulm/DistributedComputing/blob/master/Remote%20Method%20Invocation/README.md "Remote Method Invocation") (Java RMI)
+- Remote Procedure Calls (XML-RPC)
+- Webservices (REST with JSON)
+- Websockets
+- Messaging Queuing
+
+
+References:
+-------------------------------------------------------------------------------

@@ -19,7 +19,7 @@ Steps ToDo for [RMI Example](https://github.com/michaelulm/DistributedComputing/
 - Use RMI for register / subscribe / login new clients
 - Use RMI to publish new messages
 
-###Possible Architecture for RMI Chat Server and Client
+### Possible Architecture for RMI Chat Server and Client
 ![Class Diagram for RMI Chat](https://raw.githubusercontent.com/michaelulm/DistributedComputing/master/Remote%20Method%20Invocation/RMI_Chat/docs/00_RMI_Chat_Overview.png)
 
 - *interface* **ChatClient** *extends* Remote 
