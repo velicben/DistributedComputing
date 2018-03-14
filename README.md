@@ -7,7 +7,7 @@ EDUCATION:  A distributed system is a model in which components located on netwo
 This course will cover selected topics for Distributed Systems and Applications.
 
 - [Remote Method Invocation](https://github.com/michaelulm/DistributedComputing/blob/master/Remote%20Method%20Invocation/README.md "Remote Method Invocation") (Java RMI)
-- Remote Procedure Calls (XML-RPC)
+- [Remote Procedure Call](https://github.com/michaelulm/DistributedComputing/tree/master/Remote%20Procedure%20Calls/README.md "Remote Procedure Call") (XML-RPC)
 - Webservices (REST with JSON)
 - Websockets
 - Messaging Queuing
