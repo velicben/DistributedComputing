@@ -8,7 +8,7 @@ import org.apache.xmlrpc.client.XmlRpcClientConfigImpl;
 /**
  * simple Client for testing Remote Procedure Calls with XML-RPC
  */
-public class JavaClient {
+public class Client {
     public static void main(String[] args) {
 
         try {
@@ -36,7 +36,7 @@ public class JavaClient {
             System.out.println("The sum is: " + sum);
 
         } catch (Exception exception) {
-            System.err.println("JavaClient: " + exception);
+            System.err.println("Client: " + exception);
         }
     }
 }

@@ -7,18 +7,7 @@ import org.apache.xmlrpc.webserver.WebServer;
 /**
  * simple Server for testing XML-RPC with different programming langauges
  */
-public class JavaServer {
-
-   /**
-    * simple example method for XML-RPC testing
-    *
-    * @param x
-    * @param y
-    * @return
-    */
-   public Integer sum(int x, int y) {
-      return new Integer(x + y);
-   }
+public class Server {
 
    /**
     * main entry point to start XML-RPC Server
@@ -39,7 +28,7 @@ public class JavaServer {
          // create Property Handler
          PropertyHandlerMapping mapping = new PropertyHandlerMapping();
          // add "sample" Reference to Java Class with Implementation
-         mapping.addHandler("sample", JavaServer.class);
+         mapping.addHandler("sample", Calculator.class);
 
          // set handler to XML-RPC
          xmlRpcServer.setHandlerMapping(mapping);
@@ -51,7 +40,7 @@ public class JavaServer {
          System.out.println("Accepting requests. (Halt program to stop.)");
 
       } catch (Exception exception) {
-         System.err.println("JavaServer: " + exception);
+         System.err.println("Server: " + exception);
       }
    }
 }
