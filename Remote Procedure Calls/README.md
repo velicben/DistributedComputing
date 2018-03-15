@@ -14,6 +14,7 @@ Steps ToDo for [XML-RPC Example](https://github.com/michaelulm/DistributedComput
 
 ### A) Extend existing Server with addition functions
 #### Exercise A1: Extend the Server with a simple Logging Function
+  - Create additional RPC Handler (new Class)
   - Create new method write(String message)
   - Put current DateTime as prefix to log message before you
   - Write message to a log file on file system
@@ -30,7 +31,7 @@ Steps ToDo for [XML-RPC Example](https://github.com/michaelulm/DistributedComput
     - [Python 2](https://docs.python.org/2/library/xmlrpclib.html "Python 2 Library")
 
 
-### C) Develop XML-RPC Simple Demo Client
+### C) Develop XML-RPC Simple Demo Client (optional to improve skill)
 #### Excercise C1: Develop a XML-RPC Client for Wordpress 
   - use a Wordpress Site
     - you need username and password to get access
