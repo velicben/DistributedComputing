@@ -14,8 +14,8 @@ public class Client {
         try {
             // init needed XML-RPC Configuration
             XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
-            // define Server URL with reference name "sample"
-            config.setServerURL(new URL("http://127.0.0.1:8080/sample"));
+            // define Server URL
+            config.setServerURL(new URL("http://127.0.0.1:8080/"));
 
             // init XML-RPC Client
             XmlRpcClient client = new XmlRpcClient();
