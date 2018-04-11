@@ -8,9 +8,12 @@ This course will cover selected topics for Distributed Systems and Applications.
 
 - [Remote Method Invocation](https://github.com/michaelulm/DistributedComputing/blob/master/Remote%20Method%20Invocation/README.md "Remote Method Invocation") (Java RMI)
 - [Remote Procedure Call](https://github.com/michaelulm/DistributedComputing/tree/master/Remote%20Procedure%20Calls/README.md "Remote Procedure Call") (XML-RPC)
-- Webservices (REST with JSON)
-- Websockets
+- [Web Socket](https://github.com/michaelulm/DistributedComputing/tree/master/Web%20Socket/README.md "Web Socket")
 - Messaging Queuing
+
+coming extensions
+
+- [Webservices (REST with JSON)]
 
 
 References:
