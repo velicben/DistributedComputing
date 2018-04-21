@@ -6,7 +6,12 @@ import java.rmi.server.UnicastRemoteObject;
 
 // TODO before starting server:
 // TODO add your classpath
-// start rmiregistry -J-Djava.class.path="..."
+/*
+    start rmiregistry -J-Djava.class.path="..."
+
+
+
+  */
 
 public class Server implements Hello {
         
@@ -31,7 +36,7 @@ public class Server implements Hello {
 
             // Bind the remote object's stub in the registry
             Registry registry = LocateRegistry.getRegistry();
-            registry.bind("Hello", stub);
+            registry.rebind("Hello", stub);
 
             // Server / Remote Object is ready now!
             System.err.println("Server ready");
