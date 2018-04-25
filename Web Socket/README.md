@@ -3,7 +3,7 @@
 ## Web Socket
 ### Getting Started
 - Install [Node.js](https://nodejs.org/en/ "Node.js")
-- run simple [webserver demo](https://github.com/michaelulm/DistributedComputing/blob/master/Web%20Socket%20/node-webserver/app.s "Webserver Demo with Node.js")
+- run simple [webserver demo](https://github.com/michaelulm/DistributedComputing/blob/master/Web%20Socket/node-webserver/app.js "Webserver Demo with Node.js")
 
 after testing Node.js is running at your local enviroment, start exploring Web Socket extension for Node.js, you are welcome to start with the prepares websocket template:
 
