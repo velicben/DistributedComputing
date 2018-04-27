@@ -9,7 +9,7 @@ after testing Node.js is running at your local enviroment, start exploring Web S
 
 - (use npm package manager to) install [websocket](https://www.npmjs.com/package/websocket) extension
 - install or replace jquery reference
-- use [websocket template](https://github.com/michaelulm/DistributedComputing/blob/master/Web%20Socket%20/node-websocket-simple) for your next steps
+- use [websocket template](https://github.com/michaelulm/DistributedComputing/blob/master/Web%20Socket/node-websocket-simple) for your next steps
  
 
 
